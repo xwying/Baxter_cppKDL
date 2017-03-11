@@ -47,4 +47,4 @@ We also wrote an Example about how to use this libray, please refer to [Baxter_c
 
 This is our first ROS project. If you would like to give us some comments or have any question, we can be reached by sslf[at]foxmail[dot]com or ybfan910[at]163[dot]com.
 # Acknowledgement
-We would like to thank Dr.Sina Parastegari for helping us come up with idea and giving us a lot of valuable comments.
+We would like to express our great gratitude to Dr.Sina Parastegari for helping us come up with ideas and giving us a lot of valuable comments.
