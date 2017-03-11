@@ -1,5 +1,5 @@
 # Baxter cppKDL
-A Kinematic Solver for Baxter Robot that written in C++.
+A Kinematic Solver for Baxter Robot in C++.
 
 # Introduction
 Baxter cppKDL is a C++ library that offers forward kinematics and inverse kinematic calculation. We got inspired by [Baxter_pyKDL](http://sdk.rethinkrobotics.com/wiki/Baxter_PyKDL) and tried to build a similiar library for C++ users. It aimed to reduce the difficuty of using orocos KDL for the kinematic and dynamic analysis of Baxter in C++.
