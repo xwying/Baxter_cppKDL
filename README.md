@@ -5,7 +5,7 @@ A Kinematic Solver for Baxter Robot in C++.
 Baxter cppKDL is a C++ library that offers forward kinematics and inverse kinematic calculation. We got inspired by [Baxter_pyKDL](http://sdk.rethinkrobotics.com/wiki/Baxter_PyKDL) and tried to build a similiar library for C++ users. It aimed to reduce the difficuty of using orocos KDL for the kinematic and dynamic analysis of Baxter in C++.
 
 # Prerequisite
-This library uses functions in orocos KDL(Kinematics and Dynamics Library). Thus, this package has to be installed. Please refer to [http://www.orocos.org/kdl/installation-manual] for more information.
+This library depends on orocos KDL(Kinematics and Dynamics Library). Thus, orocos-kdl package has to be installed. Please refer to [http://www.orocos.org/kdl/installation-manual] for more information.
 
 # Build the baxter_cppkdl package
 ```
