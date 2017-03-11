@@ -18,27 +18,31 @@ This library uses functions in orocos KDL(Kinematics and Dynamics Library). Thus
 
 # Class
 + baxter_kinematics
-
-    Arguments:limb(required), it could be 'left' or 'right'.
-    
-    Description: Initialize the class with specific limb.
+```
+Arguments:limb(required), it could be 'left' or 'right'.
+Description: Initialize the class with specific limb.
+```
 # Method
 + forward_kinematics
-
-    Arguments:result(array)(required), joint_value(array)(optional)
-    
-    Description: Solves the forward kinematics, if the joint value is unspecified, it will read the current joint angle from Baxter. The result will write to result_array.
-    
+```
+Arguments:result(array)(required), joint_value(array)(optional)
+Description: Solves the forward kinematics, if the joint value is unspecified, it will read the current joint angle from Baxter. The result will be written to result_array.
+``` 
 + inverse_kinematics
+```
+Arguments:
+    result(array)(required)
+    position(array)(required) - Cartesian Position, Orientation (optional) [x, y, z]
+    orientation(array)(optional) - Quaternion Orientation [i, j, k, w]
+    seed(array)(optional) - Seeded joint angles for solver. Searchs out from seeded joint angles for IK solution [s0, s1, e0, e1, w0, w1, w2] 
+    Description: Solves the inverse kinematics using, providing joint angles given a Cartesian pose. The result will be written to result_array.
+```
 
-    Arguments:
-    
-        result(array)(required)
-        position(array)(required) - Cartesian Position, Orientation (optional) [x, y, z]
-        orientation(array)(optional) - Quaternion Orientation [i, j, k, w]
-        seed(array)(optional) - Seeded joint angles for solver. Searchs out from seeded joint angles for IK solution [s0, s1, e0, e1, w0, w1, w2]
-     
-    Description: Solves the inverse kinematics using, providing joint angles given a Cartesian pose
-    
+# Example
+We also wrote an Example about how to use this libray, please refer to [Baxter_cppKDL_Example][https://github.com/xwying/Baxter_cppKDL_Example] repository.
 
-This is also our first ROS project. If you have any problem please feel free to contact sslf[at]foxmail[dot]com or ybfan910[at]163[dot]com
+# Author
++Xiaowen Ying [@xwying][https://github.com/xwying]
++Yubo Fan [@ybfan94][https://github.com/ybfan94]
+
+This is our first ROS project. If you would like to give us some comments, we can be reached by sslf[at]foxmail[dot]com or ybfan910[at]163[dot]com.
