@@ -39,7 +39,7 @@ Arguments:
 ```
 
 # Example
-We also wrote an Example about how to use this libray, please refer to [Baxter_cppKDL_Example][https://github.com/xwying/Baxter_cppKDL_Example] repository.
+We also wrote an Example about how to use this libray, please refer to [Baxter_cppKDL_Example](https://github.com/xwying/Baxter_cppKDL_Example) repository.
 
 # Author
 + Xiaowen Ying [@xwying](https://github.com/xwying)
