@@ -42,7 +42,7 @@ Arguments:
 We also wrote an Example about how to use this libray, please refer to [Baxter_cppKDL_Example][https://github.com/xwying/Baxter_cppKDL_Example] repository.
 
 # Author
-+ Xiaowen Ying [@xwying][https://github.com/xwying]
-+ Yubo Fan [@ybfan94][https://github.com/ybfan94]
++ Xiaowen Ying [@xwying](https://github.com/xwying)
++ Yubo Fan [@ybfan94](https://github.com/ybfan94)
 
 This is our first ROS project. If you would like to give us some comments, we can be reached by sslf[at]foxmail[dot]com or ybfan910[at]163[dot]com.
